@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(135deg, #1e1e1e, #2c2c2c);
+  color: white;
+}
+
+.app {
+  width: 420px;
+  margin: 60px auto;
+  background: #2f2f2f;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.5);
+}
+
+.titulo {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.formulario {
+  display: flex;
+  gap: 10px;
+}
+
+#txtTarea {
+  flex: 1;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+#btnAgregar {
+  padding: 10px;
+  border: none;
+  background: #4caf8c;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#btnAgregar:hover {
+  background: #3e9e78;
+}
+
+#mensaje {
+  color: #ff6b6b;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.contador {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+#lista {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+#lista li {
+  background: #1f1f1f;
+  margin-bottom: 10px;
+  padding: 12px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#lista span {
+  flex: 1;
+}
+
+.completada {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+button {
+  margin-left: 8px;
+  padding: 6px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.btn-completar {
+  background: #2196f3;
+  color: white;
+}
+
+.btn-completar:hover {
+  background: #1976d2;
+}
+
+.btn-eliminar {
+  background: #e53935;
+  color: white;
+}
+
+.btn-eliminar:hover {
+  background: #c62828;
+}
