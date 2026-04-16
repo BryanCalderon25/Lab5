@@ -8,7 +8,6 @@ let pendientes = 0;
 
 function validarTarea(texto) {
   return texto.trim() !== "";
-  
 }
 
 function actualizarContador() {
